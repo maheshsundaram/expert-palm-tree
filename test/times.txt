@@ -1,0 +1,18 @@
+node src/node.js
+
+deno run --allow-read --allow-write src/deno.ts
+
+bun run src/bun.ts
+
+python3 src/python.py
+
+Python: Min = 0.092s,  Avg = 0.095s,  Max = 0.115s,  Median = 0.093s
+Bun:    Min = 26.559s, Avg = 27.354s, Max = 28.233s, Median = 27.423s
+Deno:   Min = 39.804s, Avg = 41.218s, Max = 43.831s, Median = 40.649s
+Node:   Min = 43.432s, Avg = 46.027s, Max = 47.634s, Median = 46.238s
+
+Python is approximately:
+
+288 times faster than Bun
+434 times faster than Deno
+484 times faster than Node

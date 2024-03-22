@@ -1,0 +1,31 @@
+build/deno/
+total 2.0M
+908K emoji_data_by_hex.json
+1.1M emoji_data_by_hex_pretty.json
+
+build/bun/
+total 2.0M
+908K emoji_data_by_hex.json
+1.1M emoji_data_by_hex_pretty.json
+
+build/node/
+total 2.0M
+908K emoji_data_by_hex.json
+1.1M emoji_data_by_hex_pretty.json
+
+build/python/
+
+1. Defaults
+total 2.3M
+1.1M emoji_data_by_hex.json
+1.2M emoji_data_by_hex_pretty.json
+
+2. ensure_ascii=False
+total 2.3M
+1.1M emoji_data_by_hex.json
+1.2M emoji_data_by_hex_pretty.json
+
+3. ensure_ascii=False, separators=(',',':')
+total 2.1M
+908K emoji_data_by_hex.json
+1.1M emoji_data_by_hex_pretty.json
